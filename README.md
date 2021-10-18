@@ -6,6 +6,6 @@ Doctors can view the status of multiple patients at same time and doctors reciev
 
 
 
-![er](https://i.imgur.com/LbzeXcO.jpg)
+![elllllllllllllllllllllllllllllllllr](https://i.imgur.com/LbzeXcO.jpg)
 
 ![alt text](image link)
