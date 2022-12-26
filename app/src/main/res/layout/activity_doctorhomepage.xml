@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorHomepageCurrentActivity">
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="1200dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/criticaltxt"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft" >
+    </ExpandableListView>
+
+    <Button
+        android:id="@+id/dcurrentbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:background="@drawable/button_background"
+        android:text="Current" />
+
+    <Button
+        android:id="@+id/dhistorybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:background="@drawable/button_background"
+        android:text="History" />
+
+    <Button
+        android:id="@+id/dlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Log Out" />
+
+    <TextView
+        android:id="@+id/criticaltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Critical:"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/dlogout"/>
+
+
+</RelativeLayout>
